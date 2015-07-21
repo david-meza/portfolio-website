@@ -1,18 +1,4 @@
-<!-- Header -->
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <%= image_tag "profile.png", class: "img-responsive" %>
-                <div class="intro-text">
-                    <span class="name">David Meza</span>
-                    <hr class="star-light">
-                    <span class="skills">Full Stack Software Engineer - Ruby on Rails Fan - Code Addict</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+<%= render partial: 'header' %>
 
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
@@ -31,7 +17,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <% image_tag "/portfolio/cabin.png", class: "img-responsive" %>
+                    <%= image_tag "portfolio/cabin.png", class: "img-responsive" %>
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -41,7 +27,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <% image_tag "/portfolio/cake.png", class: "img-responsive" %>
+                    <%= image_tag "portfolio/cake.png", class: "img-responsive" %>
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -51,7 +37,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <% image_tag "/portfolio/circus.png", class: "img-responsive" %>
+                    <%= image_tag "portfolio/circus.png", class: "img-responsive" %>
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -61,7 +47,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <% image_tag "/portfolio/game.png", class: "img-responsive" %>
+                    <%= image_tag "portfolio/game.png", class: "img-responsive" %>
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -71,7 +57,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <% image_tag "/portfolio/safe.png", class: "img-responsive" %>
+                    <%= image_tag "portfolio/safe.png", class: "img-responsive" %>
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -81,7 +67,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <% image_tag "/portfolio/submarine.png", class: "img-responsive" %>
+                    <%= image_tag "portfolio/submarine.png", class: "img-responsive" %>
                 </a>
             </div>
         </div>
