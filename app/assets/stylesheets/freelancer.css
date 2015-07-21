@@ -334,6 +334,11 @@ form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
 
+#contact #email-me {
+    width: 100%;
+    font-size: 24px;
+}
+
 footer {
     color: #fff;
 }
