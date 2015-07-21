@@ -3,7 +3,18 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-  def index
+  def home
+
+  end
+
+  def download_resume
+
+    send_file(
+    "#{Rails.root}/public/Resume.pdf",
+    filename: "david_meza.pdf",
+    type: "application/pdf",
+    disposition: 'inline'
+  )
 
   end
 end
