@@ -10,7 +10,19 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-4 portfolio-item">
+
+      <div class="col-sm-4 col-sm-push-4 portfolio-item">
+        <%= link_to '#portfolioModal1', :class => "portfolio-link", "data-toggle" => "modal" do %>
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+        <%= image_tag "portfolio/github-octocat.svg", class: "img-responsive" %>
+        <% end %>
+      </div>
+
+      <!-- <div class="col-sm-4 portfolio-item">
           <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
@@ -69,7 +81,7 @@
                     </div>
                     <%= image_tag "portfolio/submarine.png", class: "img-responsive" %>
                 </a>
-            </div>
-        </div>
+            </div> -->
     </div>
+  </div>
 </section>
