@@ -14,9 +14,13 @@
   <%= csrf_meta_tags %>
 
 </head>
+
 <body id="page-top" class="index">
 
   <%= render partial: 'shared/navbar' %>
+
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
 
   <%= yield %>
 
