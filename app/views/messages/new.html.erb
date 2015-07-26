@@ -1,0 +1,30 @@
+<hr><hr><hr><hr><hr><hr>
+<div align="center">
+  <h3>Send me a message</h3>
+
+  <%= form_for @message, :class => 'form-horizontal' do |f| %>
+
+    <%= content_tag :div, class: "form-group" do -%>
+      <%= f.label "Name" %>
+      <%= f.text_field :name, class: "form-control" %>
+    <% end -%>
+
+    <%= content_tag :div, class: "form-group" do -%>
+      <%= f.label "Email" %>
+      <%= f.text_field :email, class: "form-control" %>
+    <% end -%>
+
+    <%= content_tag :div, class: "form-group" do -%>
+      <%= f.label "Message" %>
+      <%= f.text_area :message, class: "form-control" %>
+    <% end -%>
+
+    <div class= "hidden">
+      <%= f.text_field :nickname %>
+    </div>
+
+    </br>
+    <%= f.submit "Send message", class: 'btn btn-lg btn-success' %>
+
+  <% end %>
+</div>
