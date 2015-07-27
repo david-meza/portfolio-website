@@ -85,7 +85,7 @@ header {
     color: #fff;
     position: relative;
     width: 100%;
-    background-image: url(profile.jpeg);
+    background-image: url(profile_web_quality.jpeg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -118,7 +118,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 100px;
         padding-bottom: 100px;
     }
 
