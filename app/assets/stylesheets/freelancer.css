@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #428bca;
 }
 
 h1,
@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #3673A5;
 }
 
 hr.star-primary {
@@ -82,7 +82,14 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    position: relative;
+    width: 100%;
+    background-image: url(profile.jpeg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 header .container {
@@ -138,11 +145,13 @@ header .intro-text .skills {
         transition: all .3s;
     }
 
-    .navbar-fixed-top.navbar-shrink {
+    .navbar-fixed-top .navbar-shrink {
         padding: 10px 0;
+        color:red;
+        background-color: red;
     }
 
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
+    .navbar-fixed-top .navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
 }
@@ -181,16 +190,20 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #428bca;
 }
 
 section.success a,
-section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: #fff;
+}
+
+section.success a:hover {
+    outline: 0;
+    color: #333;
 }
 
 @media(max-width:767px) {
@@ -220,7 +233,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(39, 101, 192, 0.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -274,7 +287,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #428bca;
     background: #fff;
 }
 
@@ -328,7 +341,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #428bca;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -443,7 +456,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #2c3e50;
+    background-color: #428bca;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -453,7 +466,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #2c3e50;
+    background-color: #428bca;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
