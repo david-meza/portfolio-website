@@ -63,7 +63,8 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #3673A5;
+    /*background-color: #3673A5;*/
+    background-color: transparent;
 }
 
 hr.star-primary {
@@ -147,8 +148,8 @@ header .intro-text .skills {
 
     .navbar-fixed-top .navbar-shrink {
         padding: 10px 0;
-        color:red;
-        background-color: red;
+        color: #fff;
+        background-color: #5351d2;
     }
 
     .navbar-fixed-top .navbar-shrink .navbar-brand {
