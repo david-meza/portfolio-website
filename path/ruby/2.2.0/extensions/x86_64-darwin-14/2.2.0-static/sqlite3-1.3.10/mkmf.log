@@ -247,7 +247,7 @@ int t(void) { sqlite3_column_database_name(); return 0; }
 ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
 Undefined symbols for architecture x86_64:
   "_sqlite3_column_database_name", referenced from:
-      _t in conftest-df1b54.o
+      _t in conftest-5c9523.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -301,7 +301,7 @@ int t(void) { sqlite3_enable_load_extension(); return 0; }
 ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
 Undefined symbols for architecture x86_64:
   "_sqlite3_enable_load_extension", referenced from:
-      _t in conftest-58d50b.o
+      _t in conftest-a188ed.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -355,7 +355,7 @@ int t(void) { sqlite3_load_extension(); return 0; }
 ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
 Undefined symbols for architecture x86_64:
   "_sqlite3_load_extension", referenced from:
-      _t in conftest-6c2ec5.o
+      _t in conftest-d18fdd.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:

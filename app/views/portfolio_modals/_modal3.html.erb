@@ -1,0 +1,44 @@
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>
+              Minesweeper TDD style
+            </h2>
+            <hr class="star-primary">
+
+            <%= image_tag "portfolio/game.png", class: "img-rounded", style: "height: 150px" %>
+            <p>
+              Building minesweeper was a project while I attended <%= link_to "Viking Code School", 'http://vikingcodeschool.com' %>. It can be played in the command line using Unicode characters. The twist in developing this project is that followed a test/behavioral driven approach. First we wrote all the tests in RSpec and then we made them pass by writing Ruby code.
+            </p>
+
+            <ul class="list-inline item-details">
+                <li>Source Code:
+                    <strong><%= link_to "Show", 'https://github.com/david-meza/project_tdd_minesweeper' %>
+                    </strong>
+                </li>
+                <li>Date:
+                    <strong>July 6, 2015
+                    </strong>
+                </li>
+                <li>Platform:
+                    <strong>Ruby, RSpec, and <%= link_to "Github", 'https://github.com/david-meza' %>
+                    </strong>
+                </li>
+            </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
