@@ -12,7 +12,7 @@ p {
     font-size: 20px;
 }
 
-p.small {
+p .small {
     font-size: 16px;
 }
 
@@ -85,7 +85,7 @@ header {
     color: #fff;
     position: relative;
     width: 100%;
-    background-image: url(profile_web_quality.jpeg);
+    background-image: url("profile_web_quality.jpeg");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -116,7 +116,7 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
-@media(min-width:768px) {
+@media (min-width:768px) {
     header .container {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -129,13 +129,12 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
-}
 
-@media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
+        -o-transition: padding .3s;
         transition: padding .3s;
     }
 
@@ -143,17 +142,22 @@ header .intro-text .skills {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
+        -o-transition: all .3s;
         transition: all .3s;
     }
 
     .navbar-fixed-top .navbar-shrink {
         padding: 10px 0;
         color: #fff;
-        background-color: #5351d2;
+        background-color: #5351d2; 
     }
 
     .navbar-fixed-top .navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
     }
 }
 
@@ -207,7 +211,7 @@ section.success a:hover {
     color: #333;
 }
 
-@media(max-width:767px) {
+@media (max-width:767px) {
     section {
         padding: 75px 0;
     }
@@ -266,12 +270,6 @@ section.success a:hover {
 
 #portfolio * {
     z-index: 2;
-}
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
 }
 
 .btn-outline {
@@ -364,7 +362,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: #0a5a9c;
 }
 
 footer .footer-col {
@@ -373,7 +371,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #043761;
 }
 
 .btn-social {
