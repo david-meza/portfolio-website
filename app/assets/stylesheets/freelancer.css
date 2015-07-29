@@ -37,7 +37,8 @@ h6 {
 }
 
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.chevron-down {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -48,7 +49,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f078";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -63,8 +64,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    /*background-color: #3673A5;*/
-    background-color: transparent;
+    background-color: #428bca;
 }
 
 hr.star-primary {
@@ -85,7 +85,7 @@ header {
     color: #fff;
     position: relative;
     width: 100%;
-    background-image: url("profile_web_quality.jpeg");
+    background: #eee url("profile_web_quality.jpeg");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -94,7 +94,7 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
+    padding-top: 30%;
     padding-bottom: 50px;
 }
 
@@ -103,31 +103,38 @@ header img {
     margin: 0 auto 20px;
 }
 
+.profile-pic {
+    height: auto;
+    width: 30%;
+}
+
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
+    /*font-style: italic;*/
     font-weight: 700;
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: 300;
 }
 
 @media (min-width:768px) {
     header .container {
-        padding-top: 100px;
+        padding-top: 30%;
         padding-bottom: 100px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 4em;
+        /*font-style: italic;*/
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
 
     .navbar-fixed-top {
@@ -218,6 +225,10 @@ section.success a:hover {
 
     section.first {
         padding-top: 75px;
+    }
+
+    header .container {
+        padding-top: 60%;
     }
 }
 
