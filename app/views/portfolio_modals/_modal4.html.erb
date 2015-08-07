@@ -1,0 +1,44 @@
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>
+              Danebook
+            </h2>
+            <hr class="star-primary">
+
+            <%= image_tag "portfolio/danish_flag.gif", class: "img-rounded", style: "height: 150px" %>
+            <p>
+              Danebook is a social media website at the micro-community level. It mimics the basic functionality of Facebook and was designed to be educational. This project was built following a test driven approach. Some of the core functionality involves working with forms, polymorphic and self-associations, user authentication and databases. Building Danebook was a project included <%= link_to "Viking Code School's", 'http://vikingcodeschool.com' %> curriculum.
+            </p>
+
+            <ul class="list-inline item-details">
+                <li>Source Code:
+                    <strong><%= link_to "Show", 'https://github.com/david-meza/danebook' %>
+                    </strong>
+                </li>
+                <li>Date:
+                    <strong>August 7, 2015
+                    </strong>
+                </li>
+                <li>Platform:
+                    <strong>Rails, RSpec, and <%= link_to "Github", 'https://github.com/david-meza' %>
+                    </strong>
+                </li>
+            </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
