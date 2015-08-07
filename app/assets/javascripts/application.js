@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+// Background load
+
+$(function() {
+    $('header').fadeIn(2000);
+});
+
+$( ".navbar-fixed-top" ).scroll(function() {
+  $( ".navbar-shrink" ).append( ".navbar-shrink" );
+});
