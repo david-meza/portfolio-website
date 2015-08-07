@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def home
-
+    @contact_form = ContactForm.new
   end
 
   def download_resume

@@ -21,9 +21,9 @@ $(document).ready(function() {
             $("header").fadeIn(2000);
     });
 
-// $( ".navbar-fixed-top" ).scroll(function() {
-//   $( ".navbar-shrink" ).append( ".navbar-shrink" );
-// });
+$( ".navbar-fixed-top" ).scroll(function() {
+  $( ".navbar-shrink" ).append( ".navbar-shrink" );
+});
 
 // Floating label headings for the contact form
 $(function() {
@@ -39,7 +39,7 @@ $(function() {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
