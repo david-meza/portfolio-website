@@ -13,10 +13,10 @@ if ( 'classList' in document.documentElement ) {
     return elem.classList.contains( c );
   };
   addClass = function( elem, c ) {
-    return elem.classList.add( c );
+    elem.classList.add( c );
   };
   removeClass = function( elem, c ) {
-    return elem.classList.remove( c );
+    elem.classList.remove( c );
   };
 }
 else {
@@ -55,6 +55,9 @@ var classie = {
 if ( typeof define === 'function' && define.amd ) {
   // AMD
   define( classie );
+} else if ( typeof exports === 'object' ) {
+  // CommonJS
+  module.exports = classie;
 } else {
   // browser global
   window.classie = classie;

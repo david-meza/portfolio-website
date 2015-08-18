@@ -20,7 +20,3 @@
 $(function() {
     $('header').fadeIn(2000);
 });
-
-$( ".navbar-fixed-top" ).scroll(function() {
-  $( ".navbar-shrink" ).append( ".navbar-shrink" );
-});

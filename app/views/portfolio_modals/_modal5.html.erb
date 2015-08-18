@@ -1,0 +1,43 @@
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>
+              Mr. Commissioner
+            </h2>
+            <hr class="star-primary">
+
+            <%= image_tag "https://s3.amazonaws.com/davidmeza/portfolio-website/sundayticketfantasyfootball.jpg", class: "img-rounded", style: "height: 150px" %>
+            <p>
+              <%= link_to "Mr. Commissioner", "http://mrcommissioner.com/" %> is website that gathers league and teams data for Fantasy Football enthusiasts, from hundreds of webpages and displays it in a table format so players can make smart and informed decisions. The website was originally <%= link_to "Nick Sarlo's", "https://github.com/sicknarlo/" %> idea, and was developed by four team members, including <%= link_to "Joseph Lozano", "https://github.com/joseph-lozano/" %>, <%= link_to "Donald Kelsey", "https://github.com/shadefinale/" %>, and <%= link_to "myself", "https://github.com/david-meza/" %>.
+            </p>
+
+            <ul class="list-inline item-details">
+                <li>Website:
+                    <strong><%= link_to "Show", 'http://mrcommissioner.com/' %>
+                    </strong>
+                </li>
+                <li>Date:
+                    <strong>August 15, 2015
+                    </strong>
+                </li>
+                <li>Platform:
+                    <strong>Rails, RSpec, and AWS
+                    </strong>
+                </li>
+            </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

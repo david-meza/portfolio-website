@@ -85,7 +85,7 @@ header {
     color: #fff;
     position: relative;
     width: 100%;
-    background: #eee url("profile_web_quality.jpeg");
+    background: #eee url("https://s3.amazonaws.com/davidmeza/portfolio-website/profile_web_quality.jpeg");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -122,6 +122,14 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+.navbar-shrink {
+    padding: 8px 0;
+    a {
+        color: #fff;
+    }
+    background-color: #162eae;
+}
+
 @media (min-width:768px) {
     header .container {
         padding-top: 30%;
@@ -153,13 +161,7 @@ header .intro-text .skills {
         transition: all .3s;
     }
 
-    .navbar-fixed-top .navbar-shrink {
-        padding: 10px 0;
-        color: #fff;
-        background-color: #5351d2; 
-    }
-
-    .navbar-fixed-top .navbar-shrink .navbar-brand {
+    .navbar-brand {
         font-size: 1.5em;
     }
 

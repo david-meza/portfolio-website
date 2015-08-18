@@ -1,7 +1,7 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
   <div class="container">
-    
+
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2>Portfolio</h2>
@@ -18,7 +18,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-        <%= image_tag "portfolio/github-octocat.svg", class: "img-responsive" %>
+        <%= image_tag "https://s3.amazonaws.com/davidmeza/portfolio-website/github-octocat.svg", class: "img-responsive" %>
         <% end %>
       </div>
 
@@ -29,7 +29,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-        <%= image_tag "portfolio/coding.png", class: "img-responsive" %>
+        <%= image_tag "https://s3.amazonaws.com/davidmeza/portfolio-website/coding.png", class: "img-responsive" %>
         <% end %>
       </div>
 
@@ -40,7 +40,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-        <%= image_tag "portfolio/game.png", class: "img-responsive" %>
+        <%= image_tag "https://s3.amazonaws.com/davidmeza/portfolio-website/game.png", class: "img-responsive" %>
         <% end %>
       </div>
 
@@ -51,41 +51,21 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-        <%= image_tag "portfolio/danish_flag.gif", class: "img-responsive img-rounded" %>
+        <%= image_tag "https://s3.amazonaws.com/davidmeza/portfolio-website/danish_flag.gif", class: "img-responsive img-rounded" %>
         <% end %>
       </div>
 
-      <!--
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <%= image_tag "portfolio/game.png", class: "img-responsive" %>
-                </a>
+      <div class="col-sm-4 portfolio-item">
+        <%= link_to '#portfolioModal5', :class => "portfolio-link", "data-toggle" => "modal" do %>
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
             </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <%= image_tag "portfolio/safe.png", class: "img-responsive" %>
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <%= image_tag "portfolio/submarine.png", class: "img-responsive" %>
-                </a>
-            </div> -->
+          </div>
+          <%= image_tag "https://s3.amazonaws.com/davidmeza/portfolio-website/sundayticketfantasyfootball.jpg", class: "img-responsive img-rounded" %>
+        <% end %>
+      </div>
+
     </div>
   </div>
 </section>
