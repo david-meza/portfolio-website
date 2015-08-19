@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
   def download_resume
 
     send_file(
-    "#{Rails.root}/public/Resume.pdf",
+    "#{Rails.root}/public/DavidMResume.pdf",
     filename: "david_meza.pdf",
     type: "application/pdf",
     disposition: 'inline'
