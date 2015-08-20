@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #428bca;
+    color: #327bba;
 }
 
 h1,
@@ -64,7 +64,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #428bca;
+    background-color: #327bba;
 }
 
 hr.star-primary {
@@ -111,9 +111,9 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    /*font-style: italic;*/
+    text-shadow: 3px 3px 3px #444;
     font-weight: 700;
 }
 
@@ -123,11 +123,19 @@ header .intro-text .skills {
 }
 
 .navbar-shrink {
-    padding: 8px 0;
+    padding: 5px 0 !important;
     a {
-        color: #fff;
+      color: #0A5A9C !important;
     }
-    background-color: #162eae;
+    a:hover {
+      color: #4A9AcC !important;
+    }
+    background-color: #fff;
+    font-size: 1em !important;
+}
+
+nav {
+  transition: all 0.6s ease;
 }
 
 @media (min-width:768px) {
@@ -204,7 +212,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #428bca;
+    background: #327bba;
 }
 
 section.success a,
@@ -299,7 +307,7 @@ section.success a:hover {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #428bca;
+    color: #327bba;
     background: #fff;
 }
 
@@ -353,7 +361,7 @@ section.success a:hover {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #428bca;
+    color: #327bba;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -468,7 +476,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #428bca;
+    background-color: #327bba;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -478,7 +486,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #428bca;
+    background-color: #327bba;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
