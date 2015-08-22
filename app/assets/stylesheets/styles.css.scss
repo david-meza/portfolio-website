@@ -85,7 +85,7 @@ header {
   color: #fff;
   position: relative;
   width: 100%;
-  background: #eee url("https://s3.amazonaws.com/davidmeza/portfolio-website/profile_web_quality.jpeg");
+  background: #eee url("https://s3.amazonaws.com/davidmeza/portfolio-website/cover_web.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -94,37 +94,38 @@ header {
 
   .container {
   padding-top: 30%;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   }
 
-  img {
-      display: block;
-      margin: 0 auto 20px;
-  }
+  // img {
+  //     display: block;
+  //     margin: 0 auto 20px;
+  // }
 }
 
 
-.profile-pic {
-    height: auto;
-    width: 30%;
-}
+// .profile-pic {
+//     height: auto;
+//     width: 30%;
+// }
 
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     text-shadow: 3px 3px 3px #444;
     font-weight: 700;
 }
 
 header .intro-text .skills {
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 300;
 }
 
 .navbar-shrink {
     padding: 5px 0 !important;
+    opacity: 1;
     a {
       color: #0A5A9C !important;
     }
@@ -145,7 +146,7 @@ nav {
 
 @media (min-width:768px) {
     header .container {
-        padding-top: 30%;
+        padding-top: 400px;
         padding-bottom: 100px;
     }
 
@@ -159,7 +160,7 @@ nav {
     }
 
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 18px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         -o-transition: padding .3s;
@@ -173,16 +174,12 @@ nav {
         -o-transition: all .3s;
         transition: all .3s;
     }
-
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
 }
 
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 .navbar a:focus {
@@ -241,11 +238,33 @@ section.success a:hover {
     header .container {
         padding-top: 60%;
     }
+
+    .navbar-fixed-top {
+        padding: 12px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        -o-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+    }
 }
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 15px 0;
+    height: 300px;
+    overflow: hidden;
+    img {
+      max-height: 100%;
+      width: auto;
+    }
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -253,6 +272,8 @@ section.success a:hover {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    // height: 250px;
+    // overflow: hidden;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -272,7 +293,7 @@ section.success a:hover {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 100%;
     height: 20px;
     margin-top: -12px;
@@ -282,7 +303,7 @@ section.success a:hover {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-    margin-top: -12px;
+    // margin-top: -12px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
