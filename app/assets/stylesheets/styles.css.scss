@@ -81,27 +81,28 @@ hr.star-primary:after {
 }
 
 header {
-    text-align: center;
-    color: #fff;
-    position: relative;
-    width: 100%;
-    background: #eee url("https://s3.amazonaws.com/davidmeza/portfolio-website/profile_web_quality.jpeg");
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  background: #eee url("https://s3.amazonaws.com/davidmeza/portfolio-website/profile_web_quality.jpeg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+  .container {
+  padding-top: 30%;
+  padding-bottom: 70px;
+  }
+
+  img {
+      display: block;
+      margin: 0 auto 20px;
+  }
 }
 
-header .container {
-    padding-top: 30%;
-    padding-bottom: 50px;
-}
-
-header img {
-    display: block;
-    margin: 0 auto 20px;
-}
 
 .profile-pic {
     height: auto;
@@ -132,10 +133,14 @@ header .intro-text .skills {
     }
     background-color: #fff;
     font-size: 1em !important;
+
+    .navbar-brand {
+        font-size: 1.5em !important;
+    }
 }
 
 nav {
-  transition: all 0.6s ease;
+  transition: all 0.6s ease !important;
 }
 
 @media (min-width:768px) {
@@ -162,15 +167,11 @@ nav {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 2.25em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         -o-transition: all .3s;
         transition: all .3s;
-    }
-
-    .navbar-brand {
-        font-size: 1.5em;
     }
 
     #portfolio .portfolio-item {
