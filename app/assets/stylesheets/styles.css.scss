@@ -114,13 +114,15 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 3em;
-    text-shadow: 3px 3px 3px #444;
+    text-shadow: 4px 4px 4px #444;
     font-weight: 700;
 }
 
 header .intro-text .skills {
     font-size: 1.5em;
     font-weight: 300;
+    text-shadow: 4px 4px 4px #444;
+    background-color: #222;
 }
 
 .navbar-shrink {
