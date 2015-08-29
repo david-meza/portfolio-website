@@ -1,0 +1,43 @@
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h3>
+              Snake
+            </h3>
+            <hr class="star-primary">
+
+            <%= image_tag "https://s3.amazonaws.com/davidmeza/portfolio-website/snake.png", class: "img-rounded", style: "height: 150px" %>
+            <p>
+              <%= link_to "Snake", "https://rawgit.com/david-meza/project_game_center_browser/master/snake.html" %> is the game where the player maneuvers a snake with the arrow keys and grows in size as the snake eats food pieces placed on the board. This project was built in one afternoon as part of learning the fundamentals of Javascript and jQuery. <%= link_to "Github source code", "https://github.com/david-meza/project_game_center_browser" %> is available for this project.
+            </p>
+
+            <ul class="list-inline item-details">
+                <li>Website:
+                    <strong><%= link_to "Play!", 'https://rawgit.com/david-meza/project_game_center_browser/master/snake.html' %>
+                    </strong>
+                </li>
+                <li>Date:
+                    <strong>August 29, 2015
+                    </strong>
+                </li>
+                <li>Platform:
+                    <strong>Javascript, jQuery
+                    </strong>
+                </li>
+            </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
