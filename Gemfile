@@ -24,6 +24,8 @@ gem 'devise'
 gem 'mail_form'
 gem 'simple_form'
 
+gem 'newrelic_rpm'
+
 # Importing fonts
 gem 'font-awesome-sass'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
