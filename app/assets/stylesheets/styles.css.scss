@@ -120,7 +120,7 @@ header .intro-text .skills {
 }
 
 .navbar-shrink {
-    padding: 5px 0 !important;
+    padding: 0 0 !important;
     opacity: 1;
     a {
       color: #0A5A9C !important;
@@ -183,7 +183,24 @@ nav {
 }
 
 .navbar .navbar-nav {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
+
+  li {
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+
+    &:hover {
+      background: #3a8acc;
+      padding-left: 5px;
+      a {
+        color: #fff !important;
+      }
+      font-style: italic;
+      border-left: 5px solid #0a5a9c;
+    }
+
+  }
 }
 
 .navbar .navbar-nav li a:focus {

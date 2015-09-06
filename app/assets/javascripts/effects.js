@@ -1,5 +1,5 @@
 // Background load
 
-$(function() {
-    $('header').delay(2000).fadeIn(5000);
+$(document).ready(function() {
+    $('img').fadeIn(2000);
 });
