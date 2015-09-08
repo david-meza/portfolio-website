@@ -95,8 +95,8 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: local; // Fallback
-  background-attachment: fixed;
+  // background-attachment: local; // Fallback
+  // background-attachment: fixed; // Very laggy!
 
 }
 
@@ -192,7 +192,7 @@ nav {
   }
 
   header .container {
-    padding-top: 20em;
+    padding-top: 60%;
     padding-bottom: 6em;
   }
 
