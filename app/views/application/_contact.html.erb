@@ -11,43 +11,17 @@
 
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <%= form_for @contact_form, id: "contactForm" do |contact_fields| %>
 
-          <div class="row control-group">
-            <div class="form-group col-xs-12 floating-label-form-group controls">
-              <%= contact_fields.label :name, "Name" %>
-              <%= contact_fields.text_field :name, class: "form-control", placeholder: "Name", id: "name" %>
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
+        <div id="contact-flash"></div>
 
-          <div class="row control-group">
-              <div class="form-group col-xs-12 floating-label-form-group controls">
-                  <%= contact_fields.label :email, "Email Address" %>
-                  <%= contact_fields.text_field :email, class: "form-control", placeholder: "Email Address", id: "email" %>
-                  <p class="help-block text-danger"></p>
-              </div>
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-2">
+            <%= link_to 'Show form', new_contact_form_path, class: "btn btn-success btn-center btn-block", id: "btn-form", remote: true %>
           </div>
+        </div>
 
-          <div class="row control-group">
-              <div class="form-group col-xs-12 floating-label-form-group controls">
-                <%= contact_fields.label :message %>
-                <%= contact_fields.text_area :message, class: "form-control", placeholder: "Message", rows: "4", id: "message" %>
-                  <p class="help-block text-danger"></p>
-              </div>
-          </div>
+        <div id = "contact-form"></div>
 
-          <br>
-          <div id="success">
-            <%= flash_messages %>
-          </div>
-
-          <div class="row">
-              <div class="form-group col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-2">
-                <%= contact_fields.submit "Email me!", class: "btn btn-success btn-lg btn-block", id: "btnSubmit" %>
-              </div>
-          </div>
-        <% end -%>
       </div>
     </div>
   </div>

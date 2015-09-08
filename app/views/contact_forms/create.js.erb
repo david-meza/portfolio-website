@@ -1,0 +1,12 @@
+$('#contact-form').slideUp(700);
+$('#btn-form').text("Send another message");
+$('#btn-form').fadeIn(500);
+
+// Enable button & show success message
+$('#contact-flash').html("<div class='alert alert-success'>");
+$('#contact-flash > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+.append("</button>");
+$('#contact-flash > .alert-success')
+.append("<strong>Your message has been sent. </strong>");
+$('#contact-flash > .alert-success')
+.append('</div>');
