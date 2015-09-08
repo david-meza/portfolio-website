@@ -2,3 +2,7 @@ $('#contact-form').html("<%= j (render 'form') %>");
 console.log("form rendered")
 $('#btn-form').fadeOut(500);
 $('#contact-form').slideDown(700);
+$('html, body').stop().animate({
+  scrollTop: $("#contact").offset().top
+  }, 1500, 'easeInOutExpo');
+$('#name').focus();
