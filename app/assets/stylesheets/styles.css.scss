@@ -166,6 +166,9 @@ nav {
 
   .navbar-fixed-top {
     padding: 18px 0;
+    // li {
+    //   padding: 18px 0;
+    // }
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     -o-transition: padding .3s;
@@ -197,7 +200,10 @@ nav {
   }
 
   .navbar-fixed-top {
-    padding: 12px 0;
+    padding: 10px 0;
+    li {
+      padding: 5px 0;
+    }
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     -o-transition: padding .3s;
@@ -233,14 +239,17 @@ nav {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
 
-    &:hover {
-      background: #3a8acc;
-      padding-left: 5px;
-      a {
-        color: #fff !important;
-      }
-      font-style: italic;
+    &:hover,
+    &:active,
+    &.active {
+      background-color: #3a8acc;
       border-left: 5px solid #0a5a9c;
+      // padding-left: 5px;
+      font-style: italic;
+      a, a:hover, a:active, a:focus {
+        color: #fff !important;
+        background-color: inherit;
+      }
     }
 
   }
