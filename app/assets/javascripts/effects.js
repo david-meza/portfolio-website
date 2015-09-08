@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
   $('img').fadeIn(2000);
   $('#tldr, #background, #technologies, #goals').expander({
