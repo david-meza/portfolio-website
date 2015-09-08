@@ -87,17 +87,16 @@ header {
   width: 100%;
   height: 100%;
 
-  background: #333 url("https://s3.amazonaws.com/davidmeza/portfolio-website/cover_web.jpg") no-repeat center center;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("https://s3.amazonaws.com/davidmeza/portfolio-website/cover_web.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-// background-attachment: fixed;
-
-.container {
-  padding-top: 30%;
-  padding-bottom: 100px;
-}
+  background-attachment: local; // Fallback
+  background-attachment: fixed;
 
 }
 
@@ -114,9 +113,19 @@ header .intro-text .name {
 header .intro-text .skills {
   font-family: "Helvetica Neue",Helvetica;
   font-size: 1.5em;
-  font-weight: 300;
+  font-weight: 100;
   text-shadow: 4px 4px 4px #444;
-  background-color: #222;
+  text-align: center;
+
+  li {
+    &:first-child {
+      border-left: 0;
+    }
+    padding: 0px 10px 0px 10px;
+    margin: 5px 0;
+    border-left: 3px ridge #fff;
+    display: inline-block;
+  }
 }
 
 .navbar-shrink {
@@ -142,8 +151,8 @@ nav {
 
 @media (min-width:768px) {
   header .container {
-    padding-top: 400px;
-    padding-bottom: 100px;
+    padding-top: 28em;
+    padding-bottom: 7em;
   }
 
   header .intro-text .name {
@@ -165,6 +174,38 @@ nav {
 
   .navbar-fixed-top .navbar-brand {
     font-size: 2.25em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  }
+}
+
+// small screens
+@media (max-width:767px) {
+  section {
+    padding: 75px 0;
+  }
+
+  section.first {
+    padding-top: 75px;
+  }
+
+  header .container {
+    padding-top: 20em;
+    padding-bottom: 6em;
+  }
+
+  .navbar-fixed-top {
+    padding: 12px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    -o-transition: padding .3s;
+    transition: padding .3s;
+  }
+
+  .navbar-fixed-top .navbar-brand {
+    font-size: 1.75em;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -o-transition: all .3s;
@@ -239,36 +280,6 @@ section.success a.active {
 section.success a:hover {
   outline: 0;
   color: #123b6a;
-}
-
-@media (max-width:767px) {
-  section {
-    padding: 75px 0;
-  }
-
-  section.first {
-    padding-top: 75px;
-  }
-
-  header .container {
-    padding-top: 60%;
-  }
-
-  .navbar-fixed-top {
-    padding: 12px 0;
-    -webkit-transition: padding .3s;
-    -moz-transition: padding .3s;
-    -o-transition: padding .3s;
-    transition: padding .3s;
-  }
-
-  .navbar-fixed-top .navbar-brand {
-    font-size: 1.75em;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-  }
 }
 
 #portfolio .portfolio-item {
@@ -424,7 +435,9 @@ form .row:first-child .floating-label-form-group {
 }
 
 #btn-form {
-  font-size: 1.5em;
+  font-size: 1.4em;
+  font-family: Montserrat, "Helvetica Neue", "Helvetica";
+  font-weight: 200;
 }
 
 #after-nav {
