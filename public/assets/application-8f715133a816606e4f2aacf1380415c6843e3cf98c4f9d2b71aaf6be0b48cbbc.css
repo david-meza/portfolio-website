@@ -12941,10 +12941,10 @@ a.list-group-item-danger.active:focus {
   content: "\f280";
 }
 /*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+* Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+*/
 /* line 8, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 body {
   overflow-x: hidden;
@@ -13039,81 +13039,82 @@ header {
   color: #fff;
   position: relative;
   width: 100%;
-  background: #eee url("https://s3.amazonaws.com/davidmeza/portfolio-website/cover_web.jpg");
-  background-position: center;
+  height: 100%;
+  background: #333 url("https://s3.amazonaws.com/davidmeza/portfolio-website/cover_web.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
 }
-/* line 96, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 98, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 header .container {
   padding-top: 30%;
   padding-bottom: 100px;
 }
 
-/* line 113, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 106, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 header .intro-text .name {
   display: block;
-  text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: capitalize;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 3em;
   text-shadow: 4px 4px 4px #444;
-  font-weight: 700;
+  font-weight: 200;
 }
 
-/* line 122, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 115, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 header .intro-text .skills {
+  font-family: "Helvetica Neue",Helvetica;
   font-size: 1.5em;
   font-weight: 300;
   text-shadow: 4px 4px 4px #444;
   background-color: #222;
 }
 
-/* line 129, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 123, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .navbar-shrink {
-  padding: 5px 0 !important;
+  padding: 0 0 !important;
   opacity: 1;
   background-color: #fff;
   font-size: 1em !important;
 }
-/* line 132, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 126, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .navbar-shrink a {
   color: #0A5A9C !important;
 }
-/* line 135, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 129, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .navbar-shrink a:hover {
   color: #4A9AcC !important;
 }
-/* line 141, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 135, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .navbar-shrink .navbar-brand {
   font-size: 1.5em !important;
 }
 
-/* line 146, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 140, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 nav {
   transition: all 0.6s ease !important;
 }
 
 @media (min-width: 768px) {
-  /* line 151, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+  /* line 145, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
   header .container {
     padding-top: 400px;
     padding-bottom: 100px;
   }
 
-  /* line 156, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+  /* line 150, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
   header .intro-text .name {
     font-size: 4em;
     /*font-style: italic;*/
   }
 
-  /* line 161, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+  /* line 155, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
   header .intro-text .skills {
     font-size: 1.5em;
   }
 
-  /* line 165, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+  /* line 159, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
   .navbar-fixed-top {
     padding: 18px 0;
     -webkit-transition: padding .3s;
@@ -13122,7 +13123,7 @@ nav {
     transition: padding .3s;
   }
 
-  /* line 173, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+  /* line 167, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
   .navbar-fixed-top .navbar-brand {
     font-size: 2.25em;
     -webkit-transition: all .3s;
@@ -13131,83 +13132,102 @@ nav {
     transition: all .3s;
   }
 }
-/* line 182, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 176, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .navbar {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 100;
+  font-weight: 500;
 }
 
-/* line 188, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 182, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .navbar a:focus {
   outline: 0;
 }
 
-/* line 192, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 186, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .navbar .navbar-nav {
   letter-spacing: 1px;
 }
-
+/* line 189, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+.navbar .navbar-nav li {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 100;
+}
 /* line 196, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+.navbar .navbar-nav li:hover {
+  background: #3a8acc;
+  padding-left: 5px;
+  font-style: italic;
+  border-left: 5px solid #0a5a9c;
+}
+/* line 199, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+.navbar .navbar-nav li:hover a {
+  color: #fff !important;
+}
+
+/* line 209, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .navbar .navbar-nav li a:focus {
   outline: 0;
 }
 
-/* line 200, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 213, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .navbar-default,
 .navbar-inverse {
   border: 0;
 }
 
-/* line 205, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 218, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 section {
   padding: 100px 0;
 }
 
-/* line 209, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 222, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 section h2 {
   margin: 0;
   font-size: 3em;
 }
 
-/* line 214, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 227, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 section.success {
   color: #fff;
   background: #327bba;
 }
 
-/* line 219, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 232, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 section.success a,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
   outline: 0;
-  color: #fff;
+  color: #123b6a;
 }
 
-/* line 227, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 240, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 section.success a:hover {
   outline: 0;
-  color: #333;
+  color: #123b6a;
 }
 
 @media (max-width: 767px) {
-  /* line 233, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+  /* line 246, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
   section {
     padding: 75px 0;
   }
 
-  /* line 237, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+  /* line 250, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
   section.first {
     padding-top: 75px;
   }
 
-  /* line 241, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+  /* line 254, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
   header .container {
     padding-top: 60%;
   }
 
-  /* line 245, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+  /* line 258, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
   .navbar-fixed-top {
     padding: 12px 0;
     -webkit-transition: padding .3s;
@@ -13216,7 +13236,7 @@ section.success a:hover {
     transition: padding .3s;
   }
 
-  /* line 253, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+  /* line 266, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
   .navbar-fixed-top .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all .3s;
@@ -13225,20 +13245,20 @@ section.success a:hover {
     transition: all .3s;
   }
 }
-/* line 262, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 275, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 #portfolio .portfolio-item {
   right: 0;
   margin: 15px 0;
   height: 300px;
   overflow: hidden;
 }
-/* line 267, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 280, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 #portfolio .portfolio-item img {
   max-height: 100%;
   max-width: 100%;
 }
 
-/* line 273, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 286, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -13246,7 +13266,7 @@ section.success a:hover {
   max-width: 400px;
 }
 
-/* line 282, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 295, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 #portfolio .portfolio-item .portfolio-link .caption {
   position: absolute;
   width: 100%;
@@ -13258,12 +13278,12 @@ section.success a:hover {
   transition: all ease .5s;
 }
 
-/* line 293, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 306, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
 
-/* line 297, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 310, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   top: 40%;
@@ -13275,18 +13295,27 @@ section.success a:hover {
   color: #fff;
 }
 
-/* line 312, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 325, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
 
-/* line 317, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 330, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 #portfolio * {
   z-index: 2;
 }
 
-/* line 321, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 336, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+#about #resume-link {
+  color: #fff;
+}
+/* line 339, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+#about #resume-link:hover, #about #resume-link:focus, #about #resume-link:active {
+  color: #123456;
+}
+
+/* line 348, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .btn-outline {
   margin-top: 15px;
   border: solid 2px #fff;
@@ -13296,7 +13325,7 @@ section.success a:hover {
   transition: all .3s ease-in-out;
 }
 
-/* line 330, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 357, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
@@ -13306,7 +13335,7 @@ section.success a:hover {
   background: #fff;
 }
 
-/* line 339, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 366, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -13314,7 +13343,7 @@ section.success a:hover {
   border-bottom: 1px solid #eee;
 }
 
-/* line 347, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 374, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .floating-label-form-group input,
 .floating-label-form-group textarea {
   z-index: 1;
@@ -13329,7 +13358,7 @@ section.success a:hover {
   resize: none;
 }
 
-/* line 361, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 388, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .floating-label-form-group label {
   display: block;
   z-index: 0;
@@ -13347,62 +13376,72 @@ section.success a:hover {
   transition: top .3s ease,opacity .3s ease;
 }
 
-/* line 378, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 405, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .floating-label-form-group:not(:first-child) {
   padding-left: 14px;
   border-left: 1px solid #eee;
 }
 
-/* line 383, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 410, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1;
 }
 
-/* line 388, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 415, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .floating-label-form-group-with-focus label {
   color: #327bba;
 }
 
-/* line 392, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 419, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eee;
 }
 
-/* line 396, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 423, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+#contact-form {
+  display: none;
+}
+
+/* line 427, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+#after-nav {
+  margin-top: 100px;
+}
+
+/* line 436, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 #contact #email-me {
   width: 100%;
   font-size: 24px;
 }
 
-/* line 401, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 441, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 footer {
   color: #fff;
 }
 
-/* line 405, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 445, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 footer h3 {
   margin-bottom: 30px;
 }
 
-/* line 409, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 449, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 footer .footer-above {
   padding-top: 50px;
   background-color: #0a5a9c;
 }
 
-/* line 414, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 454, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 footer .footer-col {
   margin-bottom: 50px;
 }
 
-/* line 418, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 458, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 footer .footer-below {
   padding: 25px 0;
   background-color: #043761;
 }
 
-/* line 423, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 463, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .btn-social {
   display: inline-block;
   width: 50px;
@@ -13414,14 +13453,14 @@ footer .footer-below {
   line-height: 45px;
 }
 
-/* line 434, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 474, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .btn:focus,
 .btn:active,
 .btn.active {
   outline: 0;
 }
 
-/* line 440, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 480, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .scroll-top {
   z-index: 1049;
   position: fixed;
@@ -13431,7 +13470,7 @@ footer .footer-below {
   height: 50px;
 }
 
-/* line 449, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 489, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .scroll-top .btn {
   width: 50px;
   height: 50px;
@@ -13440,12 +13479,12 @@ footer .footer-below {
   line-height: 28px;
 }
 
-/* line 457, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 497, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .scroll-top .btn:focus {
   outline: 0;
 }
 
-/* line 461, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 501, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .portfolio-modal .modal-content {
   padding: 100px 0;
   min-height: 100%;
@@ -13457,23 +13496,23 @@ footer .footer-below {
   box-shadow: none;
 }
 
-/* line 472, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 512, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
 }
 
-/* line 477, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 517, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
 
-/* line 481, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 521, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
 }
 
-/* line 485, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 525, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
@@ -13484,12 +13523,12 @@ footer .footer-below {
   cursor: pointer;
 }
 
-/* line 495, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 535, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .portfolio-modal .close-modal:hover {
   opacity: .3;
 }
 
-/* line 499, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 539, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .portfolio-modal .close-modal .lr {
   z-index: 1051;
   width: 1px;
@@ -13501,7 +13540,7 @@ footer .footer-below {
   transform: rotate(45deg);
 }
 
-/* line 510, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 550, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .portfolio-modal .close-modal .lr .rl {
   z-index: 1052;
   width: 1px;
@@ -13512,7 +13551,7 @@ footer .footer-below {
   transform: rotate(90deg);
 }
 
-/* line 520, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
+/* line 560, /Users/David/Desktop/DavidMeza.us/website/app/assets/stylesheets/styles.css.scss */
 .portfolio-modal .modal-backdrop {
   display: none;
   opacity: 0;

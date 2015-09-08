@@ -1,4 +1,3 @@
-// Background load
 
 $(document).ready(function() {
   $('img').fadeIn(2000);
@@ -13,5 +12,5 @@ $(document).ready(function() {
     userCollapseText: 'Less',
     userCollapsePrefix: ' ',
     collapseEffect: 'fadeOut',
-    collapseSpeed: 300 })
+    collapseSpeed: 300 });
 });

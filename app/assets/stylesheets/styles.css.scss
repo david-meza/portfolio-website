@@ -175,7 +175,7 @@ nav {
 .navbar {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 .navbar a:focus {
@@ -189,6 +189,8 @@ nav {
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
 
     &:hover {
       background: #3a8acc;
@@ -328,9 +330,19 @@ section.success a:hover {
   z-index: 2;
 }
 
-// #about {
+#about {
 
-// }
+  #resume-link {
+    color: #fff;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #123456;
+    }
+  }
+
+}
 
 .btn-outline {
   margin-top: 15px;
