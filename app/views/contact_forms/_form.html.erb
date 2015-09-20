@@ -19,7 +19,7 @@
   <div class="row control-group">
       <div class="form-group col-xs-12 floating-label-form-group controls">
         <%= contact_fields.label :message %>
-        <%= contact_fields.text_area :message, class: "form-control", placeholder: "Message", rows: "4", id: "message" %>
+        <%= contact_fields.text_area :message, class: "form-control", required: true, placeholder: "Message", rows: "4", id: "message" %>
           <p class="help-block text-danger"></p>
       </div>
   </div>
@@ -31,7 +31,7 @@
 
   <div class="row">
       <div class="form-group col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-2">
-        <%= contact_fields.submit "Send!", class: "btn btn-success btn-lg btn-block", id: "btnSubmit" %>
+        <%= contact_fields.submit "Send!", class: "btn btn-success btn-lg btn-block", id: "btn-submit" %>
       </div>
   </div>
 <% end -%>

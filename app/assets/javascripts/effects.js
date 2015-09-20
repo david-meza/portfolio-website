@@ -24,12 +24,12 @@ $(document).ready(function() {
       $('.navbar-toggle:visible').click();
   });
 
-  // $("body").on("click", "#btnSubmit", function(event) {
-  //   var $button = $(event.target)
-  //   $button.attr("disabled", "disabled");
+  // $("body").on("click", "#btn-submit", function(event) {
+  //   var $button = $("#btn-submit");
+  //   $button.prop("disabled", true);
   //   setTimeout(function(){
-  //     $button.attr("disabled", "false");
-  //   }, 2000)
+  //     $button.prop("disabled", false);
+  //   }, 2000);
   // });
 
 });
