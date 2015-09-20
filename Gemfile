@@ -26,6 +26,8 @@ gem 'simple_form'
 
 gem 'newrelic_rpm'
 
+gem 'sitemap_generator'
+
 # Importing fonts
 gem 'font-awesome-sass'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

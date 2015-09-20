@@ -24,4 +24,12 @@ $(document).ready(function() {
       $('.navbar-toggle:visible').click();
   });
 
+  // $("body").on("click", "#btnSubmit", function(event) {
+  //   var $button = $(event.target)
+  //   $button.attr("disabled", "disabled");
+  //   setTimeout(function(){
+  //     $button.attr("disabled", "false");
+  //   }, 2000)
+  // });
+
 });

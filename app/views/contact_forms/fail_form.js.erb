@@ -4,3 +4,5 @@ $('#success > .alert-danger').html("<button type='button' class='close' data-dis
 .append("</button>");
 $('#success > .alert-danger').append("<strong><%= @contact_form.errors.full_messages.first %>");
 $('#success > .alert-danger').append('</div>');
+
+<% flash.clear %>
