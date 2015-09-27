@@ -17,7 +17,7 @@ I have always been fascinated by technology. From a very early age (since elemen
 
 My Recent Projects
 
-I am most familiar working with Ruby, Rails, and PostgreSQL in the back end, and HTML5, CSS3, and Javascript in the front end. Some frameworks and libraries that I use include Bootstrap, and jQuery. Other supporting practices I use are Github for version control, Heroku for app deployment in a cloud platform, and Sass pre-processor for stylesheets. I've recently worked in Danebook, which is a Facebook clone that mimics the user experience of a social media website.
+I am most familiar working with Ruby, Rails, and PostgreSQL in the back end, and HTML5, CSS3, Javascript and AngularJS in the front end. Some frameworks and libraries that I use include Bootstrap, and jQuery. Other supporting practices I use are Github for version control, Heroku for app deployment in a cloud platform, and stylesheet preprocessors such as Sass.  I've recently worked in Danebook, which is a Facebook clone that mimics the user experience of a social media website and was built using Ruby on Rails. In addition, I built a single page app called Fideligard Stock Simulator that lets you make stock investments to practice your ability to predict future market price fluctuations.
 
 Who I am and what I'm looking for
 
