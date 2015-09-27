@@ -293,13 +293,14 @@ section.success a:hover {
 
 #portfolio .portfolio-item {
   right: 0;
-  margin: 15px 0;
-  height: 300px;
+  margin: 30px 0;
+  padding: 0 25px;
+  height: 100%;
   overflow: hidden;
-  img {
-    max-height: 100%;
-    max-width: 100%;
-  }
+  // img {
+  //   max-height: 100%;
+  //   max-width: 100%;
+  // }
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -339,6 +340,10 @@ section.success a:hover {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
 // margin-top: -12px;
+}
+
+.list-no-padding {
+  padding-left: 5px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
@@ -555,6 +560,7 @@ footer .footer-below {
   height: 75px;
   background-color: transparent;
   cursor: pointer;
+  z-index: 1053
 }
 
 .portfolio-modal .close-modal:hover {

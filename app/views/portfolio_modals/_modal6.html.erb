@@ -11,18 +11,56 @@
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
             <h3>
-              Snake
+              Game Center Project
             </h3>
             <hr class="star-primary">
 
-            <%= image_tag "https://s3.amazonaws.com/davidmeza/portfolio-website/snake.png", class: "img-rounded", style: "height: 150px", alt: "Snake" %>
+            <%= image_tag "https://s3.amazonaws.com/davidmeza/portfolio-website/game.png", class: "img-rounded", style: "height: 150px", alt: "Game controller" %>
             <p>
-              <%= link_to "Snake", "https://rawgit.com/david-meza/project_game_center_browser/master/snake.html" %> is the game where the player maneuvers a snake with the arrow keys and grows in size as the snake eats food pieces placed on the board. This project was built in one afternoon as part of learning the fundamentals of Javascript and jQuery. <%= link_to "Github source code", "https://github.com/david-meza/project_game_center_browser" %> is available for this project.
+              Game center is a compilation of popular games written by me in Javascript, Ruby, or using the Unity engine. Some of the games you can play are in this list:
             </p>
+            <div class="row">
+
+              <div class="col-sm-6">
+                <ul class = "list-no-padding text-left">
+                  <li>
+                    <h4><%= link_to "Nightmares", "https://cdn.rawgit.com/david-meza/nefarious-octo-woof/master/Nightmares3.html", target: "_blank", rel: "Nightmares" %></h4>
+                    <p>Rotate your character with your mouse, press click to shoot and move with the arrow keys or WASD keys. A survival shooter game built on the Unity 5 Game engine.</p>
+                  </li>
+                  <li>
+                    <h4><%= link_to "Maze Runner", "https://rawgit.com/david-meza/maze-runner/master/maze.html", target: "_blank", rel: "Maze Runner" %></h4>
+                    <p>Run out of the maze as fast as you can! Play using the arrow keys.</p>
+                  </li>
+                  <li>
+                    <h4><%= link_to "Flappy Bird", "https://rawgit.com/david-meza/flappy-bird/master/index.html", target: "_blank", rel: "Flappy Bird" %></h4>
+                    <p>Clone of Flappy Bird using Javascript and HTML5 canvas. Play with your mouse (click to fly/jump).</p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-sm-6">
+                <ul class = "list-no-padding text-left">
+                  <li>
+                    <h4><%= link_to "Snake", "https://rawgit.com/david-meza/project_game_center_browser/master/snake.html", target: "_blank", rel: "Snake" %></h4>
+                    <p>Snake is the game where the player maneuvers a snake with the arrow keys and grows in size as the snake eats food pieces placed on the board.</p>
+                  </li>
+                  <li>
+                    <h4><%= link_to "Scrabble", "https://rawgit.com/david-meza/project_game_center_browser/master/scrabble.html", target: "_blank", rel: "Scrabble" %></h4>
+                    <p>Click on one of your tiles and then click on the board to place it.</p>
+                  </li>
+                  <li>
+                    <h4><%= link_to "Minesweeper", "https://github.com/david-meza/project_tdd_minesweeper", target: "_blank", rel: "Minesweeper" %></h4>
+                    <p>Play minesweeper from the command line. Written in pure Ruby.</p>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+
 
             <ul class="list-inline item-details">
-                <li>Website:
-                    <strong><%= link_to "Play!", 'https://rawgit.com/david-meza/project_game_center_browser/master/snake.html' %>
+                <li>Source Code:
+                    <strong><%= link_to "Github", "https://github.com/david-meza/project_game_center_browser", target: "_blank", rel: "My Github Project Repo" %>
                     </strong>
                 </li>
                 <li>Date:
@@ -30,7 +68,7 @@
                     </strong>
                 </li>
                 <li>Platform:
-                    <strong>Javascript, jQuery
+                    <strong>Javascript, jQuery, Unity3D, Ruby
                     </strong>
                 </li>
             </ul>

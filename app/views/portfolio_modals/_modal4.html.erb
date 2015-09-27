@@ -18,12 +18,12 @@
 
             <%= image_tag "https://s3.amazonaws.com/davidmeza/portfolio-website/danish_flag.gif", class: "img-rounded", style: "height: 150px", alt: "Danish flag" %>
             <p>
-              <%= link_to "Danebook", "https://danebooker.herokuapp.com/" %> is a Facebook clone at the micro-community level. It mimics the functionality of a social network and was designed to be showcase my ability to build a complex website. It was tested through model and integration testing using RSpec. Some of the core functionality involve working with complex data structures, writing efficient algorithms, handling user authentication, managing a relational database, and making AJAX requests. Building Danebook was a project included <%= link_to "Viking Code School's", 'http://vikingcodeschool.com' %> curriculum.
+              <%= link_to "Danebook", "https://danebooker.herokuapp.com/", :target => "_blank", rel: "Danebook Demo" %> is a Facebook clone at the micro-community level. It mimics the functionality of a social network and was designed to be showcase my ability to build a complex website. It was tested through model and integration testing using RSpec. Some of the core functionality involve working with complex data structures, writing efficient algorithms, handling user authentication, managing a relational database, and making AJAX requests. Building Danebook was a project included <%= link_to "Viking Code School's", 'http://vikingcodeschool.com', :target => "_blank", rel: "Viking Code School" %> curriculum.
             </p>
 
             <ul class="list-inline item-details">
                 <li>Source Code:
-                    <strong><%= link_to "Show", 'https://github.com/david-meza/danebook' %>
+                    <strong><%= link_to "Show", 'https://github.com/david-meza/danebook', :target => "_blank", rel: "My Github Project Repo" %>
                     </strong>
                 </li>
                 <li>Date:
@@ -31,7 +31,7 @@
                     </strong>
                 </li>
                 <li>Platform:
-                    <strong>Rails, RSpec, and <%= link_to "Heroku", "https://danebooker.herokuapp.com/" %>
+                    <strong>Rails, RSpec, and <%= link_to "Heroku", "https://danebooker.herokuapp.com/", :target => "_blank", rel: "Deployed Heroku app" %>
                     </strong>
                 </li>
             </ul>
