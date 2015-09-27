@@ -1,5 +1,4 @@
-# laughing-wookie
-This is my personal portfolio website
+# David Meza's Portfolio Website
 
 Visit my website at [davidmeza.us](http://www.davidmeza.us)
 
